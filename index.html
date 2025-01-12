@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Vault Elite</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #111;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .search-section, .shop-section, .faq-section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .search-section input[type="text"] {
+            padding: 10px;
+            width: 60%;
+            max-width: 400px;
+            margin: 10px 0;
+            border: 1px solid #444;
+            border-radius: 5px;
+        }
+
+        .search-section button {
+            background-color: #ff6600;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .search-section button:hover {
+            background-color: #e65500;
+        }
+
+        .shop-section .product {
+            display: inline-block;
+            width: 200px;
+            margin: 15px;
+            text-align: center;
+        }
+
+        .shop-section img {
+            width: 100%;
+            border: 1px solid #444;
+            border-radius: 5px;
+        }
+
+        .faq-section {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-section h3 {
+            margin: 20px 0 10px;
+        }
+
+        footer {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer .navigation {
+            margin-top: 10px;
+        }
+
+        footer .navigation a {
+            color: #888;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        footer .navigation a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Code Vault Elite</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#search">Search</a>
+            <a href="#about">About</a>
+            <a href="#legal">Legal</a>
+        </nav>
+    </header>
+
+    <section id="search" class="search-section">
+        <h2>Search Products</h2>
+        <input type="text" placeholder="Search for products">
+        <button>Search</button>
+    </section>
+
+    <section id="shop" class="shop-section">
+        <h2>Shop</h2>
+        <div class="product">
+            <img src="example1.jpg" alt="Product 1">
+            <p>Product 1</p>
+            <p>$99.99</p>
+        </div>
+        <div class="product">
+            <img src="example2.jpg" alt="Product 2">
+            <p>Product 2</p>
+            <p>$79.99</p>
+        </div>
+        <div class="product">
+            <img src="example3.jpg" alt="Product 3">
+            <p>Product 3</p>
+            <p>$59.99</p>
+        </div>
+        <div class="product">
+            <img src="example4.jpg" alt="Product 4">
+            <p>Product 4</p>
+            <p>$49.99</p>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <h3>What is Code Vault Elite?</h3>
+        <p>A modern platform offering powerful tools and custom solutions.</p>
+
+        <h3>What types of tools are available?</h3>
+        <p>A wide range of programming utilities, automation scripts, and more.</p>
+
+        <h3>How do I request a custom tool?</h3>
+        <p>Use the 'Request Custom Tool' option in the shop section.</p>
+    </section>
+
+    <footer>
+        <p>Code Vault Elite</p>
+        <p>Unlock Innovation with Code Vault Elite. Where modern design meets powerful tools.</p>
+        <div class="navigation">
+            <a href="#">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#search">Search</a>
+        </div>
+    </footer>
+</body>
+</html>
